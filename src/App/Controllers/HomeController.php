@@ -7,10 +7,10 @@ namespace App\Controllers;
 use Framework\Controller;
 use Framework\Response;
 
-class Home extends Controller
+class HomeController extends Controller
 {
     public function index(): Response
     {
-        return $this->view("Home/index.mvc.php");
+        return view("Home/index.mvc.php");
     }
 }

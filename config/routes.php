@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\HomeController;
+use App\Controllers\HomeController;
 
     Route::get('home/index', [HomeController::class, 'index'])->name('home.index');
     Route::get('home/index/create', [HomeController::class, 'create'])->name('home.create');
