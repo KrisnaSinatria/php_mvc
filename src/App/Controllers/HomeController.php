@@ -11,6 +11,7 @@ class HomeController extends Controller
 {
     public function index(): Response
     {
-        return view("Home/index.mvc.php");
+        return 'test';
     }
 }
+ 

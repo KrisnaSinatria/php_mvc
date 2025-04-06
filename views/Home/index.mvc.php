@@ -1,9 +1,11 @@
-{% extends "base.mvc.php" %}
-
-{% block title %}Home{% endblock %}
-
-{% block body %}
-
-<h1>Home</h1>
-
-{% endblock %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>test</h1>
+</body>
+</html>
